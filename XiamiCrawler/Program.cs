@@ -1,10 +1,4 @@
-﻿using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.IO;
+﻿using System;
 
 namespace XiamiCrawler
 {
@@ -13,8 +7,8 @@ namespace XiamiCrawler
         static void Main(string[] args)
         {
             Crawler crawler = new Crawler();
-            crawler.SearchArtist();
-            crawler.GetAlbumFromArtist();
+            //crawler.SearchArtist();
+            //crawler.GetAlbumFromArtist();
             crawler.GetSongFromAlbum();
         }
 
